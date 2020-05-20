@@ -1,57 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta class="keywords" content="поиск, запрос, поисковик, гугл, гуглить, google">
+  <meta class="description" content="Поиск информации в интернете: веб страницы, картинки, видео и многое другое.">
+  <title>GoogleTree</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="">Почта</a></li>
-        <li><a href="">Картинки</a></li>
-        <li><a href="">Приложения</a></li>
-        <li><a href="">Аккаунт</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <div class="logo">
+        <img src="/img/googlelogo_color_272x92dp.png" alt="Логотип компании" width="279px" height="92px">
+      </div>
+      <nav class="navigation">
+        <ul class="main_navigation">
+          <li><a href="">Почта</a></li>
+          <li><a href="">Картинки</a></li>
+        </ul>
+        <ul class="user_navigation">
+          <li><a href="">Приложения</a></li>
+          <li><a href="">Аккаунт</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
-    <section>
-      <div class="logo">
-        <img src="" alt="">
-      </div>
-      <div class="search">
-        <input id="search" type="text">
-        <label for="search">Поиск</label>
-        <button>Поиск в Google</button>
-        <button>Мне повезет!</button>
-      </div>
-      <div class="info">
-        <a href="" class="info_news">Актуальная информация и полезные ресурсы</a>
-      </div>
-      <div class="lang">
-        <p>Сервисы Google доступны на разных языках</p>
-        <a href="">English</a>
-      </div>
-    </section>
+    <div class="container">
+      <section class="search">
+        <form class="search">
+          <label class="visually-hidden" for="search">Поиск</label>
+          <input id="search" type="text">
+          <a href="">Поиск в Google</a>
+          <a href="">Мне повезет!</a>
+        </form>
+      </section>
+      <section class="additionally">
+          <div class="info_line">
+            <a href="">Актуальная информация и полезные ресурсы</a>
+          </div>
+          <div class="lang">
+            <p>Сервисы Google доступны на разных языках</p>
+            <a href="">English</a>
+          </div>  
+        </section> 
+  </div>  
   </main>
   <footer>
-    <div class="south">
-      <p>Россия</p>
-    </div>
-    <div class="about_us">
-      <ul>
-        <li><a href="">Реклама</a></li>
-        <li><a href="">Для бизнеса</a></li>
-        <li><a href="">Все о Google</a></li>
-        <li><a href="">Как работает Google поиск</a></li>
-      </ul>
-      <ul>
-        <li><a href="">Конфиденциальность</a></li>
-        <li><a href="">Условия</a></li>
-        <li><a href="">Настройки</a></li>
-      </ul>
+    <div class="container">
+      <div class="south">
+        <p>Россия</p>
+      </div>
+      <div class="about_us">
+        <ul class="about_info">
+          <li><a href="">Реклама</a></li>
+          <li><a href="">Для бизнеса</a></li>
+          <li><a href="">Все о Google</a></li>
+          <li><a href="">Как работает Google поиск</a></li>
+        </ul>
+        <ul class="about_privacy">
+          <li><a href="">Конфиденциальность</a></li>
+          <li><a href="">Условия</a></li>
+          <li><a href="">Настройки</a></li>
+        </ul>
+      </div>
     </div>
   </footer>
 </body>

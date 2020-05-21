@@ -15,16 +15,18 @@
       <div class="logo">
         <img src="/img/googlelogo_color_272x92dp.png" alt="Логотип компании" width="279px" height="92px">
       </div>
-      <nav class="navigation">
-        <ul class="main_navigation">
-          <li><a href="">Почта</a></li>
-          <li><a href="">Картинки</a></li>
-        </ul>
-        <ul class="user_navigation">
-          <li><a href="">Приложения</a></li>
-          <li><a href="">Аккаунт</a></li>
-        </ul>
-      </nav>
+      <div class="nav_wrapper">
+        <nav class="navigation">
+          <ul class="main_navigation">
+            <li><a href="">Почта</a></li>
+            <li><a href="">Картинки</a></li>
+          </ul>
+          <ul class="user_navigation">
+            <li class="user_navigation_item"><a href=""><span class="visually-hidden">Приложения</span></a></li>
+            <li class="user_navigation_item"><a href=""><span class="visually-hidden">Аккаунт</span></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -33,8 +35,8 @@
         <form class="search">
           <label class="visually-hidden" for="search">Поиск</label>
           <input id="search" type="text">
-          <a href="">Поиск в Google</a>
-          <a href="">Мне повезет!</a>
+          <a class="button" href="">Поиск в Google</a>
+          <a class="button" href="">Мне повезет!</a>
         </form>
       </section>
       <section class="additionally">

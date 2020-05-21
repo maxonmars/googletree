@@ -13,6 +13,12 @@ body {
 
 a {
   text-decoration: none;
+
+  color: #1a0dab;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 li {
@@ -51,8 +57,8 @@ input[type="radio"].visually-hidden {
 
 .button {
   display: inline-block;
-  padding: 0 16px;
-  margin: 11px 4px;
+  /* padding: 0 16px; */
+  /* margin: 11px 4px; */
 
   font: inherit;
   text-align: center;
@@ -78,11 +84,12 @@ input[type="radio"].visually-hidden {
 .container {
   display: flex;
   flex-direction: column;
-  padding: 15px 30px;
+  padding: 0 30px;
 }
 
 .logo {
   order: 2;
+  margin-bottom: 15px;
 }
 
 .nav_wrapper {
@@ -90,6 +97,9 @@ input[type="radio"].visually-hidden {
   flex-direction: row-reverse;
 
   width: 100%;
+  
+  padding-top: 15px;
+  margin-bottom: 150px;
 }
 
 .navigation {
@@ -180,5 +190,47 @@ border-radius: 50%;
 
   .user_navigation li:first-of-type a:hover::before {
     opacity: .85;
+  }
+
+  .logo img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+
+  .search input {
+    margin-bottom: 30px;
+  }
+
+  .button_wrapper {
+    margin-bottom: 20px;
+  }
+
+  .additionally {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .additionally .info_line {
+    margin-bottom: 28px;
+
+  }
+
+  .additionally .lang {
+    display: flex;
+
+    
+  }
+
+  .lang p {
+    margin: 0;
+    margin-right: 6px;
   }
 

@@ -234,3 +234,51 @@ border-radius: 50%;
     margin-right: 6px;
   }
 
+/* ДОПИЛИ РАЗМЕР */
+  .main_footer {
+    margin-top: 235px;
+  }
+
+  .south p {
+    margin: 0;
+    padding: 0 30px;
+
+    color: #7e7e7e;
+    
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+  }
+
+  .about_us {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 30px;
+
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+  }
+
+  .about_info {
+    display: flex;
+    justify-content: space-between;
+
+    width: 480px;
+    margin: 0;
+  }
+
+  .about_info a {
+    color: #5f6368;
+  }
+
+  .about_privacy {
+    display: flex;
+    justify-content: space-between;
+
+    width: 320px;
+    margin: 0;
+  }
+
+  .about_privacy a {
+    color: #5f6368;
+  }
